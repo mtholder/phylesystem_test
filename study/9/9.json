@@ -14,7 +14,7 @@
 }, 
 "meta": [
 {
-"$": "Tank, David C., and Michael J. Donoghue. 2010. Phylogeny and Phylogenetic Nomenclature of the Campanulidae based on an Expanded Sample of Genes and Taxa. Systematic Botany 35, no. 2 (6): 425-441. doi:10.1600/036364410791638306.", 
+"$": "Tank, David C., and Michael J. Donoghue. 2010. Phylogeny and Phylogenetic Nomenclature of the Campanulidae based on an Expanded Sample of Genes and Taxa. Systematic Botany 35, no. 2 (6): 425-441. doi:10.1600/036364410791638306", 
 "@property": "ot:studyPublicationReference", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
@@ -47,6 +47,51 @@
 "$": 2531639, 
 "@property": "ot:focalClade", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "OTO mapping hints", 
+"@property": "ot:annotation", 
+"@xsi:type": "nex:ResourceMeta", 
+"author": {
+"description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
+"invocation": {
+"params": {
+"searchContext": "All life", 
+"substitutions": [
+{
+"active": false, 
+"new": "", 
+"old": "", 
+"valid": true
+}
+]
+}
+}, 
+"name": "OpenTree curation webapp", 
+"url": "https://github.com/OpenTreeOfLife/opentree", 
+"version": "0.0.0"
+}, 
+"dateCreated": "2013-12-30T16:31:35.981Z", 
+"id": "otu-mapping-hints"
+}, 
+{
+"$": "Supporting files metadata", 
+"@property": "ot:annotation", 
+"@xsi:type": "nex:ResourceMeta", 
+"author": {
+"description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
+"invocation": {
+"params": {
+"files": [], 
+"movedToPermanentArchive": false
+}
+}, 
+"name": "OpenTree curation webapp", 
+"url": "https://github.com/OpenTreeOfLife/opentree", 
+"version": "0.0.0"
+}, 
+"dateCreated": "2013-12-30T16:31:35.981Z", 
+"id": "supporting-files-metadata"
 }
 ], 
 "otus": {
@@ -2220,6 +2265,7 @@
 {
 "@about": "#tree1", 
 "@id": "tree1", 
+"@label": "Untitled (#tree1)", 
 "edge": [
 {
 "@id": "edge2", 
@@ -3736,6 +3782,31 @@
 {
 "$": "Bayesian 50% majority-rule consensus", 
 "@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:specifiedRoot", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:outGroupEdge", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:tag", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:branchLengthTimeUnit", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:branchLengthDescription", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ], 
@@ -5769,1516 +5840,1517 @@
 {
 "@about": "#tree2", 
 "@id": "tree2", 
+"@label": "Untitled (#tree2)", 
 "edge": [
 {
 "@id": "edge253", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node252", 
 "@target": "node253"
 }, 
 {
 "@id": "edge254", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node253", 
 "@target": "node254"
 }, 
 {
 "@id": "edge255", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node254", 
 "@target": "node255"
 }, 
 {
 "@id": "edge256", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node255", 
 "@target": "node256"
 }, 
 {
 "@id": "edge257", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node256", 
 "@target": "node257"
 }, 
 {
 "@id": "edge258", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node257", 
 "@target": "node258"
 }, 
 {
 "@id": "edge260", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node259", 
 "@target": "node260"
 }, 
 {
 "@id": "edge261", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node260", 
 "@target": "node261"
 }, 
 {
 "@id": "edge262", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node261", 
 "@target": "node262"
 }, 
 {
 "@id": "edge263", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node262", 
 "@target": "node263"
 }, 
 {
 "@id": "edge264", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node263", 
 "@target": "node264"
 }, 
 {
 "@id": "edge265", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node264", 
 "@target": "node265"
 }, 
 {
 "@id": "edge266", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node265", 
 "@target": "node266"
 }, 
 {
 "@id": "edge267", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node266", 
 "@target": "node267"
 }, 
 {
 "@id": "edge268", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node267", 
 "@target": "node268"
 }, 
 {
 "@id": "edge269", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node268", 
 "@target": "node269"
 }, 
 {
 "@id": "edge270", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node269", 
 "@target": "node270"
 }, 
 {
 "@id": "edge271", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node269", 
 "@target": "node271"
 }, 
 {
 "@id": "edge272", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node268", 
 "@target": "node272"
 }, 
 {
 "@id": "edge273", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node272", 
 "@target": "node273"
 }, 
 {
 "@id": "edge274", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node272", 
 "@target": "node274"
 }, 
 {
 "@id": "edge278", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node277", 
 "@target": "node278"
 }, 
 {
 "@id": "edge279", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node278", 
 "@target": "node279"
 }, 
 {
 "@id": "edge280", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node279", 
 "@target": "node280"
 }, 
 {
 "@id": "edge281", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node279", 
 "@target": "node281"
 }, 
 {
 "@id": "edge285", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node284", 
 "@target": "node285"
 }, 
 {
 "@id": "edge286", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node285", 
 "@target": "node286"
 }, 
 {
 "@id": "edge287", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node286", 
 "@target": "node287"
 }, 
 {
 "@id": "edge288", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node286", 
 "@target": "node288"
 }, 
 {
 "@id": "edge292", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node291", 
 "@target": "node292"
 }, 
 {
 "@id": "edge293", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node292", 
 "@target": "node293"
 }, 
 {
 "@id": "edge294", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node293", 
 "@target": "node294"
 }, 
 {
 "@id": "edge295", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node293", 
 "@target": "node295"
 }, 
 {
 "@id": "edge299", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node298", 
 "@target": "node299"
 }, 
 {
 "@id": "edge300", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node299", 
 "@target": "node300"
 }, 
 {
 "@id": "edge301", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node300", 
 "@target": "node301"
 }, 
 {
 "@id": "edge302", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node301", 
 "@target": "node302"
 }, 
 {
 "@id": "edge303", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node301", 
 "@target": "node303"
 }, 
 {
 "@id": "edge308", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node307", 
 "@target": "node308"
 }, 
 {
 "@id": "edge309", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node307", 
 "@target": "node309"
 }, 
 {
 "@id": "edge311", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node310", 
 "@target": "node311"
 }, 
 {
 "@id": "edge312", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node311", 
 "@target": "node312"
 }, 
 {
 "@id": "edge313", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node312", 
 "@target": "node313"
 }, 
 {
 "@id": "edge314", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node313", 
 "@target": "node314"
 }, 
 {
 "@id": "edge315", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node313", 
 "@target": "node315"
 }, 
 {
 "@id": "edge320", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node319", 
 "@target": "node320"
 }, 
 {
 "@id": "edge321", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node320", 
 "@target": "node321"
 }, 
 {
 "@id": "edge322", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node320", 
 "@target": "node322"
 }, 
 {
 "@id": "edge324", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node258", 
 "@target": "node324"
 }, 
 {
 "@id": "edge325", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node324", 
 "@target": "node325"
 }, 
 {
 "@id": "edge326", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node325", 
 "@target": "node326"
 }, 
 {
 "@id": "edge327", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node326", 
 "@target": "node327"
 }, 
 {
 "@id": "edge328", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node327", 
 "@target": "node328"
 }, 
 {
 "@id": "edge329", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node328", 
 "@target": "node329"
 }, 
 {
 "@id": "edge330", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node329", 
 "@target": "node330"
 }, 
 {
 "@id": "edge331", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node330", 
 "@target": "node331"
 }, 
 {
 "@id": "edge332", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node331", 
 "@target": "node332"
 }, 
 {
 "@id": "edge333", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node332", 
 "@target": "node333"
 }, 
 {
 "@id": "edge334", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node333", 
 "@target": "node334"
 }, 
 {
 "@id": "edge335", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node334", 
 "@target": "node335"
 }, 
 {
 "@id": "edge336", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node335", 
 "@target": "node336"
 }, 
 {
 "@id": "edge337", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node336", 
 "@target": "node337"
 }, 
 {
 "@id": "edge338", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node336", 
 "@target": "node338"
 }, 
 {
 "@id": "edge343", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node342", 
 "@target": "node343"
 }, 
 {
 "@id": "edge344", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node342", 
 "@target": "node344"
 }, 
 {
 "@id": "edge347", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node346", 
 "@target": "node347"
 }, 
 {
 "@id": "edge348", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node346", 
 "@target": "node348"
 }, 
 {
 "@id": "edge350", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node349", 
 "@target": "node350"
 }, 
 {
 "@id": "edge351", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node349", 
 "@target": "node351"
 }, 
 {
 "@id": "edge353", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node352", 
 "@target": "node353"
 }, 
 {
 "@id": "edge354", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node353", 
 "@target": "node354"
 }, 
 {
 "@id": "edge355", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node354", 
 "@target": "node355"
 }, 
 {
 "@id": "edge356", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node355", 
 "@target": "node356"
 }, 
 {
 "@id": "edge357", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node356", 
 "@target": "node357"
 }, 
 {
 "@id": "edge358", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node357", 
 "@target": "node358"
 }, 
 {
 "@id": "edge359", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node357", 
 "@target": "node359"
 }, 
 {
 "@id": "edge361", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node355", 
 "@target": "node361"
 }, 
 {
 "@id": "edge362", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node361", 
 "@target": "node362"
 }, 
 {
 "@id": "edge363", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node362", 
 "@target": "node363"
 }, 
 {
 "@id": "edge364", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node362", 
 "@target": "node364"
 }, 
 {
 "@id": "edge368", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node367", 
 "@target": "node368"
 }, 
 {
 "@id": "edge369", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node367", 
 "@target": "node369"
 }, 
 {
 "@id": "edge372", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node371", 
 "@target": "node372"
 }, 
 {
 "@id": "edge373", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node371", 
 "@target": "node373"
 }, 
 {
 "@id": "edge376", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node375", 
 "@target": "node376"
 }, 
 {
 "@id": "edge377", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node376", 
 "@target": "node377"
 }, 
 {
 "@id": "edge378", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node376", 
 "@target": "node378"
 }, 
 {
 "@id": "edge382", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node381", 
 "@target": "node382"
 }, 
 {
 "@id": "edge383", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node382", 
 "@target": "node383"
 }, 
 {
 "@id": "edge384", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node382", 
 "@target": "node384"
 }, 
 {
 "@id": "edge385", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node381", 
 "@target": "node385"
 }, 
 {
 "@id": "edge386", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node385", 
 "@target": "node386"
 }, 
 {
 "@id": "edge387", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node385", 
 "@target": "node387"
 }, 
 {
 "@id": "edge389", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node388", 
 "@target": "node389"
 }, 
 {
 "@id": "edge390", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node389", 
 "@target": "node390"
 }, 
 {
 "@id": "edge391", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node390", 
 "@target": "node391"
 }, 
 {
 "@id": "edge392", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node391", 
 "@target": "node392"
 }, 
 {
 "@id": "edge393", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node392", 
 "@target": "node393"
 }, 
 {
 "@id": "edge394", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node393", 
 "@target": "node394"
 }, 
 {
 "@id": "edge395", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node393", 
 "@target": "node395"
 }, 
 {
 "@id": "edge402", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node401", 
 "@target": "node402"
 }, 
 {
 "@id": "edge403", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node402", 
 "@target": "node403"
 }, 
 {
 "@id": "edge404", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node403", 
 "@target": "node404"
 }, 
 {
 "@id": "edge405", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node404", 
 "@target": "node405"
 }, 
 {
 "@id": "edge406", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node405", 
 "@target": "node406"
 }, 
 {
 "@id": "edge407", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node406", 
 "@target": "node407"
 }, 
 {
 "@id": "edge408", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node407", 
 "@target": "node408"
 }, 
 {
 "@id": "edge409", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node408", 
 "@target": "node409"
 }, 
 {
 "@id": "edge410", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node409", 
 "@target": "node410"
 }, 
 {
 "@id": "edge411", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node410", 
 "@target": "node411"
 }, 
 {
 "@id": "edge412", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node411", 
 "@target": "node412"
 }, 
 {
 "@id": "edge413", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node412", 
 "@target": "node413"
 }, 
 {
 "@id": "edge414", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node412", 
 "@target": "node414"
 }, 
 {
 "@id": "edge416", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node410", 
 "@target": "node416"
 }, 
 {
 "@id": "edge417", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node416", 
 "@target": "node417"
 }, 
 {
 "@id": "edge418", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node417", 
 "@target": "node418"
 }, 
 {
 "@id": "edge419", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node417", 
 "@target": "node419"
 }, 
 {
 "@id": "edge422", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node421", 
 "@target": "node422"
 }, 
 {
 "@id": "edge423", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node421", 
 "@target": "node423"
 }, 
 {
 "@id": "edge426", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node425", 
 "@target": "node426"
 }, 
 {
 "@id": "edge427", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node426", 
 "@target": "node427"
 }, 
 {
 "@id": "edge428", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node426", 
 "@target": "node428"
 }, 
 {
 "@id": "edge431", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node430", 
 "@target": "node431"
 }, 
 {
 "@id": "edge432", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node431", 
 "@target": "node432"
 }, 
 {
 "@id": "edge433", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node431", 
 "@target": "node433"
 }, 
 {
 "@id": "edge436", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node435", 
 "@target": "node436"
 }, 
 {
 "@id": "edge437", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node436", 
 "@target": "node437"
 }, 
 {
 "@id": "edge438", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node436", 
 "@target": "node438"
 }, 
 {
 "@id": "edge439", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node435", 
 "@target": "node439"
 }, 
 {
 "@id": "edge440", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node439", 
 "@target": "node440"
 }, 
 {
 "@id": "edge441", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node439", 
 "@target": "node441"
 }, 
 {
 "@id": "edge443", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node442", 
 "@target": "node443"
 }, 
 {
 "@id": "edge444", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node443", 
 "@target": "node444"
 }, 
 {
 "@id": "edge445", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node443", 
 "@target": "node445"
 }, 
 {
 "@id": "edge448", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node447", 
 "@target": "node448"
 }, 
 {
 "@id": "edge449", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node448", 
 "@target": "node449"
 }, 
 {
 "@id": "edge450", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node449", 
 "@target": "node450"
 }, 
 {
 "@id": "edge451", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node450", 
 "@target": "node451"
 }, 
 {
 "@id": "edge452", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node450", 
 "@target": "node452"
 }, 
 {
 "@id": "edge456", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node455", 
 "@target": "node456"
 }, 
 {
 "@id": "edge457", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node456", 
 "@target": "node457"
 }, 
 {
 "@id": "edge458", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node456", 
 "@target": "node458"
 }, 
 {
 "@id": "edge462", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node461", 
 "@target": "node462"
 }, 
 {
 "@id": "edge463", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node462", 
 "@target": "node463"
 }, 
 {
 "@id": "edge464", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node463", 
 "@target": "node464"
 }, 
 {
 "@id": "edge465", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node464", 
 "@target": "node465"
 }, 
 {
 "@id": "edge466", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node464", 
 "@target": "node466"
 }, 
 {
 "@id": "edge468", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node462", 
 "@target": "node468"
 }, 
 {
 "@id": "edge469", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node468", 
 "@target": "node469"
 }, 
 {
 "@id": "edge470", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node469", 
 "@target": "node470"
 }, 
 {
 "@id": "edge471", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node469", 
 "@target": "node471"
 }, 
 {
 "@id": "edge473", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node461", 
 "@target": "node473"
 }, 
 {
 "@id": "edge474", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node473", 
 "@target": "node474"
 }, 
 {
 "@id": "edge475", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node474", 
 "@target": "node475"
 }, 
 {
 "@id": "edge476", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node475", 
 "@target": "node476"
 }, 
 {
 "@id": "edge477", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node475", 
 "@target": "node477"
 }, 
 {
 "@id": "edge481", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node480", 
 "@target": "node481"
 }, 
 {
 "@id": "edge482", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node481", 
 "@target": "node482"
 }, 
 {
 "@id": "edge483", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node482", 
 "@target": "node483"
 }, 
 {
 "@id": "edge484", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node483", 
 "@target": "node484"
 }, 
 {
 "@id": "edge485", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node483", 
 "@target": "node485"
 }, 
 {
 "@id": "edge487", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node481", 
 "@target": "node487"
 }, 
 {
 "@id": "edge488", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node487", 
 "@target": "node488"
 }, 
 {
 "@id": "edge489", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node488", 
 "@target": "node489"
 }, 
 {
 "@id": "edge490", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node488", 
 "@target": "node490"
 }, 
 {
 "@id": "edge493", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node492", 
 "@target": "node493"
 }, 
 {
 "@id": "edge494", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node493", 
 "@target": "node494"
 }, 
 {
 "@id": "edge495", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node493", 
 "@target": "node495"
 }, 
 {
 "@id": "edge498", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node497", 
 "@target": "node498"
 }, 
 {
 "@id": "edge499", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node498", 
 "@target": "node499"
 }, 
 {
 "@id": "edge500", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node498", 
 "@target": "node500"
 }, 
 {
 "@id": "edge501", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node497", 
 "@target": "node501"
 }, 
 {
 "@id": "edge502", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node501", 
 "@target": "node502"
 }, 
 {
 "@id": "edge503", 
-"@length": 1.0, 
+"@length": 1, 
 "@source": "node501", 
 "@target": "node503"
 }, 
 {
 "@id": "edge277", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node265", 
 "@target": "node277"
 }, 
 {
 "@id": "edge282", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node278", 
 "@target": "node282"
 }, 
 {
 "@id": "edge289", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node285", 
 "@target": "node289"
 }, 
 {
 "@id": "edge296", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node292", 
 "@target": "node296"
 }, 
 {
 "@id": "edge304", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node300", 
 "@target": "node304"
 }, 
 {
 "@id": "edge316", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node312", 
 "@target": "node316"
 }, 
 {
 "@id": "edge323", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node319", 
 "@target": "node323"
 }, 
 {
 "@id": "edge339", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node335", 
 "@target": "node339"
 }, 
 {
 "@id": "edge360", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node356", 
 "@target": "node360"
 }, 
 {
 "@id": "edge365", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node361", 
 "@target": "node365"
 }, 
 {
 "@id": "edge379", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node375", 
 "@target": "node379"
 }, 
 {
 "@id": "edge396", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node392", 
 "@target": "node396"
 }, 
 {
 "@id": "edge415", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node411", 
 "@target": "node415"
 }, 
 {
 "@id": "edge420", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node416", 
 "@target": "node420"
 }, 
 {
 "@id": "edge429", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node425", 
 "@target": "node429"
 }, 
 {
 "@id": "edge434", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node430", 
 "@target": "node434"
 }, 
 {
 "@id": "edge446", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node442", 
 "@target": "node446"
 }, 
 {
 "@id": "edge453", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node449", 
 "@target": "node453"
 }, 
 {
 "@id": "edge455", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node447", 
 "@target": "node455"
 }, 
 {
 "@id": "edge459", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node455", 
 "@target": "node459"
 }, 
 {
 "@id": "edge467", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node463", 
 "@target": "node467"
 }, 
 {
 "@id": "edge472", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node468", 
 "@target": "node472"
 }, 
 {
 "@id": "edge478", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node474", 
 "@target": "node478"
 }, 
 {
 "@id": "edge486", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node482", 
 "@target": "node486"
 }, 
 {
 "@id": "edge491", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node487", 
 "@target": "node491"
 }, 
 {
 "@id": "edge492", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node480", 
 "@target": "node492"
 }, 
 {
 "@id": "edge496", 
-"@length": 2.0, 
+"@length": 2, 
 "@source": "node492", 
 "@target": "node496"
 }, 
 {
 "@id": "edge259", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node258", 
 "@target": "node259"
 }, 
 {
 "@id": "edge275", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node267", 
 "@target": "node275"
 }, 
 {
 "@id": "edge283", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node277", 
 "@target": "node283"
 }, 
 {
 "@id": "edge284", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node264", 
 "@target": "node284"
 }, 
 {
 "@id": "edge290", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node284", 
 "@target": "node290"
 }, 
 {
 "@id": "edge297", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node291", 
 "@target": "node297"
 }, 
 {
 "@id": "edge305", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node299", 
 "@target": "node305"
 }, 
 {
 "@id": "edge317", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node311", 
 "@target": "node317"
 }, 
 {
 "@id": "edge340", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node334", 
 "@target": "node340"
 }, 
 {
 "@id": "edge352", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node328", 
 "@target": "node352"
 }, 
 {
 "@id": "edge397", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node391", 
 "@target": "node397"
 }, 
 {
 "@id": "edge421", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node409", 
 "@target": "node421"
 }, 
 {
 "@id": "edge454", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node448", 
 "@target": "node454"
 }, 
 {
 "@id": "edge479", 
-"@length": 3.0, 
+"@length": 3, 
 "@source": "node473", 
 "@target": "node479"
 }, 
 {
 "@id": "edge276", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node266", 
 "@target": "node276"
 }, 
 {
 "@id": "edge291", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node263", 
 "@target": "node291"
 }, 
 {
 "@id": "edge298", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node262", 
 "@target": "node298"
 }, 
 {
 "@id": "edge306", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node298", 
 "@target": "node306"
 }, 
 {
 "@id": "edge318", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node310", 
 "@target": "node318"
 }, 
 {
 "@id": "edge341", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node333", 
 "@target": "node341"
 }, 
 {
 "@id": "edge342", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node332", 
 "@target": "node342"
 }, 
 {
 "@id": "edge366", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node354", 
 "@target": "node366"
 }, 
 {
 "@id": "edge367", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node353", 
 "@target": "node367"
 }, 
 {
 "@id": "edge398", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node390", 
 "@target": "node398"
 }, 
 {
 "@id": "edge425", 
-"@length": 4.0, 
+"@length": 4, 
 "@source": "node407", 
 "@target": "node425"
 }, 
 {
 "@id": "edge399", 
-"@length": 5.0, 
+"@length": 5, 
 "@source": "node389", 
 "@target": "node399"
 }, 
 {
 "@id": "edge401", 
-"@length": 5.0, 
+"@length": 5, 
 "@source": "node255", 
 "@target": "node401"
 }, 
 {
 "@id": "edge424", 
-"@length": 5.0, 
+"@length": 5, 
 "@source": "node408", 
 "@target": "node424"
 }, 
 {
 "@id": "edge430", 
-"@length": 5.0, 
+"@length": 5, 
 "@source": "node406", 
 "@target": "node430"
 }, 
 {
 "@id": "edge310", 
-"@length": 6.0, 
+"@length": 6, 
 "@source": "node260", 
 "@target": "node310"
 }, 
 {
 "@id": "edge345", 
-"@length": 6.0, 
+"@length": 6, 
 "@source": "node331", 
 "@target": "node345"
 }, 
 {
 "@id": "edge346", 
-"@length": 6.0, 
+"@length": 6, 
 "@source": "node330", 
 "@target": "node346"
 }, 
 {
 "@id": "edge370", 
-"@length": 6.0, 
+"@length": 6, 
 "@source": "node352", 
 "@target": "node370"
 }, 
 {
 "@id": "edge400", 
-"@length": 6.0, 
+"@length": 6, 
 "@source": "node388", 
 "@target": "node400"
 }, 
 {
 "@id": "edge435", 
-"@length": 6.0, 
+"@length": 6, 
 "@source": "node405", 
 "@target": "node435"
 }, 
 {
 "@id": "edge447", 
-"@length": 6.0, 
+"@length": 6, 
 "@source": "node403", 
 "@target": "node447"
 }, 
 {
 "@id": "edge349", 
-"@length": 7.0, 
+"@length": 7, 
 "@source": "node329", 
 "@target": "node349"
 }, 
 {
 "@id": "edge442", 
-"@length": 7.0, 
+"@length": 7, 
 "@source": "node404", 
 "@target": "node442"
 }, 
 {
 "@id": "edge307", 
-"@length": 8.0, 
+"@length": 8, 
 "@source": "node261", 
 "@target": "node307"
 }, 
 {
 "@id": "edge461", 
-"@length": 8.0, 
+"@length": 8, 
 "@source": "node401", 
 "@target": "node461"
 }, 
 {
 "@id": "edge319", 
-"@length": 9.0, 
+"@length": 9, 
 "@source": "node259", 
 "@target": "node319"
 }, 
 {
 "@id": "edge371", 
-"@length": 9.0, 
+"@length": 9, 
 "@source": "node327", 
 "@target": "node371"
 }, 
 {
 "@id": "edge375", 
-"@length": 10.0, 
+"@length": 10, 
 "@source": "node325", 
 "@target": "node375"
 }, 
 {
 "@id": "edge388", 
-"@length": 10.0, 
+"@length": 10, 
 "@source": "node256", 
 "@target": "node388"
 }, 
 {
 "@id": "edge374", 
-"@length": 11.0, 
+"@length": 11, 
 "@source": "node326", 
 "@target": "node374"
 }, 
 {
 "@id": "edge460", 
-"@length": 11.0, 
+"@length": 11, 
 "@source": "node402", 
 "@target": "node460"
 }, 
 {
 "@id": "edge380", 
-"@length": 13.0, 
+"@length": 13, 
 "@source": "node324", 
 "@target": "node380"
 }, 
 {
 "@id": "edge381", 
-"@length": 13.0, 
+"@length": 13, 
 "@source": "node257", 
 "@target": "node381"
 }, 
 {
 "@id": "edge480", 
-"@length": 14.0, 
+"@length": 14, 
 "@source": "node254", 
 "@target": "node480"
 }, 
 {
 "@id": "edge497", 
-"@length": 17.0, 
+"@length": 17, 
 "@source": "node253", 
 "@target": "node497"
 }, 
 {
 "@id": "edge504", 
-"@length": 20.0, 
+"@length": 20, 
 "@source": "node252", 
 "@target": "node504"
 }
@@ -7292,6 +7364,36 @@
 {
 "$": "ML bootstrap consensus", 
 "@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:specifiedRoot", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:inGroupClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:outGroupEdge", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:tag", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:branchLengthTimeUnit", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:branchLengthDescription", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ], 
