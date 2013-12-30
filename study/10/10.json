@@ -34,7 +34,7 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": "2007", 
+"$": "2034", 
 "@property": "ot:studyYear", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
@@ -66,7 +66,7 @@
 "url": "https://github.com/OpenTreeOfLife/opentree", 
 "version": "0.0.0"
 }, 
-"dateCreated": "2013-12-30T16:42:37.143Z", 
+"dateCreated": "2013-12-30T18:15:38.875Z", 
 "id": "otu-mapping-hints"
 }, 
 {
@@ -85,7 +85,7 @@
 "url": "https://github.com/OpenTreeOfLife/opentree", 
 "version": "0.0.0"
 }, 
-"dateCreated": "2013-12-30T16:42:37.143Z", 
+"dateCreated": "2013-12-30T18:15:38.875Z", 
 "id": "supporting-files-metadata"
 }
 ], 
