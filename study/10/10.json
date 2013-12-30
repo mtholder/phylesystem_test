@@ -34,7 +34,7 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 2007, 
+"$": "2017", 
 "@property": "ot:studyYear", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
@@ -42,6 +42,51 @@
 "$": 177637, 
 "@property": "ot:focalClade", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "OTO mapping hints", 
+"@property": "ot:annotation", 
+"@xsi:type": "nex:ResourceMeta", 
+"author": {
+"description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
+"invocation": {
+"params": {
+"searchContext": "All life", 
+"substitutions": [
+{
+"active": false, 
+"new": "", 
+"old": "", 
+"valid": true
+}
+]
+}
+}, 
+"name": "OpenTree curation webapp", 
+"url": "https://github.com/OpenTreeOfLife/opentree", 
+"version": "0.0.0"
+}, 
+"dateCreated": "2013-12-30T16:29:30.527Z", 
+"id": "otu-mapping-hints"
+}, 
+{
+"$": "Supporting files metadata", 
+"@property": "ot:annotation", 
+"@xsi:type": "nex:ResourceMeta", 
+"author": {
+"description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
+"invocation": {
+"params": {
+"files": [], 
+"movedToPermanentArchive": false
+}
+}, 
+"name": "OpenTree curation webapp", 
+"url": "https://github.com/OpenTreeOfLife/opentree", 
+"version": "0.0.0"
+}, 
+"dateCreated": "2013-12-30T16:29:30.527Z", 
+"id": "supporting-files-metadata"
 }
 ], 
 "otus": {
@@ -1144,6 +1189,7 @@
 {
 "@about": "#tree3", 
 "@id": "tree3", 
+"@label": "Untitled (#tree3)", 
 "edge": [
 {
 "@id": "edge506", 
@@ -1910,6 +1956,31 @@
 {
 "$": "ML bootstrap consensus", 
 "@property": "ot:curatedType", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:specifiedRoot", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:outGroupEdge", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:tag", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:branchLengthTimeUnit", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@property": "ot:branchLengthDescription", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ], 
