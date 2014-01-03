@@ -22024,16 +22024,6 @@
 "files": {
 "file": [
 {
-"@filename": "snow-cat.jpg", 
-"@size": 27061, 
-"@sourceForTree": "", 
-"@type": "", 
-"@url": "/curator/supporting_files/download/supporting_files.doc.b6a351c24db56752.736e6f772d6361742e6a7067.jpg", 
-"description": {
-"$": "First test image (cat in snow drifts)."
-}
-}, 
-{
 "@filename": "happy-turtle.jpg", 
 "@size": 47861, 
 "@sourceForTree": "", 
@@ -22051,6 +22041,16 @@
 "@url": "/curator/supporting_files/download/supporting_files.doc.a6f6c533c9c625d3.62696f6e69632d646f672e6a7067.jpg", 
 "description": {
 "$": ""
+}
+}, 
+{
+"@filename": "i-am-the-first.jpg", 
+"@size": 47442, 
+"@sourceForTree": "", 
+"@type": "", 
+"@url": "/curator/supporting_files/download/supporting_files.doc.aba6eaf3ed6134ae.692d616d2d7468652d66697273742e6a7067.jpg", 
+"description": {
+"$": "You will believe a pig can fly."
 }
 }
 ]
