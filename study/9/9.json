@@ -59,15 +59,15 @@
 "searchContext": "Liverworts", 
 "substitutions": [
 {
-"active": false, 
-"new": "BBB", 
-"old": "aaa", 
+"active": true, 
+"new": "PULCO", 
+"old": "pelta", 
 "valid": true
 }, 
 {
 "active": true, 
 "new": "bar", 
-"old": "foo", 
+"old": "Ptero", 
 "valid": true
 }, 
 {
@@ -100,7 +100,24 @@
 "description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
 "invocation": {
 "params": {
-"files": [], 
+"files": [
+{
+"description": "Test image file.", 
+"filename": "09_dogturtle.png", 
+"size": 119464, 
+"sourceForTree": "", 
+"type": "", 
+"url": "/curator/supporting_files/download/supporting_files.doc.a0f629a8c3e7a157.30395f646f67747572746c652e706e67.png"
+}, 
+{
+"description": "Another test.", 
+"filename": "brass-knuckle-coffee.jpg", 
+"size": 11392, 
+"sourceForTree": "", 
+"type": "", 
+"url": "/curator/supporting_files/download/supporting_files.doc.90695d7e44761c03.62726173732d6b6e75636b6c652d636f666665652e6a7067.jpg"
+}
+], 
 "movedToPermanentArchive": false
 }
 }, 
