@@ -21911,6 +21911,138 @@
 "severity": "WARNING"
 }
 ]
+}, 
+{
+"@property": "ot:annotationEvents", 
+"@xsi:type": "nex:ResourceMeta", 
+"annotation": [
+{
+"@dateCreated": "2014-01-03T18:32:01.311Z", 
+"@description": "Aids for mapping study OTUs to OTT taxa", 
+"@id": "otu-mapping-hints", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp"
+}, 
+{
+"@dateCreated": "2014-01-03T18:32:01.310Z", 
+"@description": "Describes supporting data files for this study", 
+"@id": "supporting-files-metadata", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp"
+}
+]
+}, 
+{
+"@property": "ot:agents", 
+"@xsi:type": "nex:ResourceMeta", 
+"agent": [
+{
+"@description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
+"@id": "opentree-curation-webapp", 
+"@name": "OpenTree curation webapp", 
+"@url": "https://github.com/OpenTreeOfLife/opentree", 
+"@version": "0.0.0", 
+"__ko_mapping__": {
+"": {}, 
+"copiedProperties": {}, 
+"copy": [], 
+"ignore": [], 
+"include": [
+"_destroy"
+], 
+"mappedProperties": {
+"@description": true, 
+"@id": true, 
+"@name": true, 
+"@url": true, 
+"@version": true, 
+"__ko_mapping__": true, 
+"__ko_mapping__.": true, 
+"__ko_mapping__..key": true, 
+"__ko_mapping__.copiedProperties": true, 
+"__ko_mapping__.copy": true, 
+"__ko_mapping__.ignore": true, 
+"__ko_mapping__.include": true, 
+"__ko_mapping__.mappedProperties": true, 
+"__ko_mapping__.mappedProperties.@description": true, 
+"__ko_mapping__.mappedProperties.@id": true, 
+"__ko_mapping__.mappedProperties.@name": true, 
+"__ko_mapping__.mappedProperties.@url": true, 
+"__ko_mapping__.mappedProperties.@version": true, 
+"__ko_mapping__.observe": true
+}, 
+"observe": []
+}
+}
+]
+}, 
+{
+"@property": "ot:messages", 
+"@xsi:type": "nex:ResourceMeta", 
+"message": [
+{
+"@code": "OTU_MAPPING_HINTS", 
+"@humanMessageType": "NONE", 
+"@id": "message1", 
+"@severity": "INFO", 
+"@wasGeneratedById": "otu-mapping-hints", 
+"data": {
+"searchContext": {
+"$": "All life"
+}, 
+"substitutions": {
+"substitution": [
+{
+"@active": false, 
+"@valid": true, 
+"new": {
+"$": ""
+}, 
+"old": {
+"$": ""
+}
+}
+]
+}
+}, 
+"refersTo": {
+"top": {
+"$": "meta"
+}
+}
+}, 
+{
+"@code": "SUPPORTING_FILE_INFO", 
+"@humanMessageType": "NONE", 
+"@id": "message2", 
+"@severity": "INFO", 
+"@wasGeneratedById": "supporting-files-metadata", 
+"data": {
+"@movedToPermanentArchive": false, 
+"files": {
+"file": [
+{
+"@filename": "snow-cat.jpg", 
+"@size": 27061, 
+"@sourceForTree": "", 
+"@type": "", 
+"@url": "/curator/supporting_files/download/supporting_files.doc.b6a351c24db56752.736e6f772d6361742e6a7067.jpg", 
+"description": {
+"$": "First test image (cat in snow drifts)."
+}
+}
+]
+}
+}, 
+"refersTo": {
+"top": {
+"$": "meta"
+}
+}
+}
+]
 }
 ], 
 "otus": {
