@@ -74,38 +74,7 @@
 "@id": "opentree-curation-webapp", 
 "@name": "OpenTree curation webapp", 
 "@url": "https://github.com/OpenTreeOfLife/opentree", 
-"@version": "0.0.0", 
-"__ko_mapping__": {
-"": {}, 
-"copiedProperties": {}, 
-"copy": [], 
-"ignore": [], 
-"include": [
-"_destroy"
-], 
-"mappedProperties": {
-"@description": true, 
-"@id": true, 
-"@name": true, 
-"@url": true, 
-"@version": true, 
-"__ko_mapping__": true, 
-"__ko_mapping__.": true, 
-"__ko_mapping__..key": true, 
-"__ko_mapping__.copiedProperties": true, 
-"__ko_mapping__.copy": true, 
-"__ko_mapping__.ignore": true, 
-"__ko_mapping__.include": true, 
-"__ko_mapping__.mappedProperties": true, 
-"__ko_mapping__.mappedProperties.@description": true, 
-"__ko_mapping__.mappedProperties.@id": true, 
-"__ko_mapping__.mappedProperties.@name": true, 
-"__ko_mapping__.mappedProperties.@url": true, 
-"__ko_mapping__.mappedProperties.@version": true, 
-"__ko_mapping__.observe": true
-}, 
-"observe": []
-}
+"@version": "0.0.0"
 }
 ]
 }, 
