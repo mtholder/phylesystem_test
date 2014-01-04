@@ -34,7 +34,7 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": "200a", 
+"$": 2009, 
 "@property": "ot:studyYear", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
@@ -44,49 +44,94 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": "OTO mapping hints", 
-"@property": "ot:annotation", 
+"@property": "ot:annotationEvents", 
 "@xsi:type": "nex:ResourceMeta", 
-"author": {
-"description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
-"invocation": {
-"params": {
-"searchContext": "All life", 
-"substitutions": [
+"annotation": [
 {
-"active": false, 
-"new": "", 
-"old": "", 
-"valid": true
+"@dateCreated": "2014-01-04T08:22:10.204Z", 
+"@description": "Aids for mapping study OTUs to OTT taxa", 
+"@id": "otu-mapping-hints", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp"
+}, 
+{
+"@dateCreated": "2014-01-04T08:22:10.204Z", 
+"@description": "Describes supporting data files for this study", 
+"@id": "supporting-files-metadata", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp"
+}
+]
+}, 
+{
+"@property": "ot:agents", 
+"@xsi:type": "nex:ResourceMeta", 
+"agent": [
+{
+"@description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
+"@id": "opentree-curation-webapp", 
+"@name": "OpenTree curation webapp", 
+"@url": "https://github.com/OpenTreeOfLife/opentree", 
+"@version": "0.0.0"
+}
+]
+}, 
+{
+"@property": "ot:messages", 
+"@xsi:type": "nex:ResourceMeta", 
+"message": [
+{
+"@code": "OTU_MAPPING_HINTS", 
+"@humanMessageType": "NONE", 
+"@id": "message1", 
+"@severity": "INFO", 
+"@wasGeneratedById": "otu-mapping-hints", 
+"data": {
+"searchContext": {
+"$": "All life"
+}, 
+"substitutions": {
+"substitution": [
+{
+"@active": false, 
+"@valid": true, 
+"new": {
+"$": ""
+}, 
+"old": {
+"$": ""
+}
 }
 ]
 }
 }, 
-"name": "OpenTree curation webapp", 
-"url": "https://github.com/OpenTreeOfLife/opentree", 
-"version": "0.0.0"
-}, 
-"dateCreated": "2013-12-30T20:04:59.312Z", 
-"id": "otu-mapping-hints"
-}, 
-{
-"$": "Supporting files metadata", 
-"@property": "ot:annotation", 
-"@xsi:type": "nex:ResourceMeta", 
-"author": {
-"description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
-"invocation": {
-"params": {
-"files": [], 
-"movedToPermanentArchive": false
+"refersTo": {
+"top": {
+"$": "meta"
+}
 }
 }, 
-"name": "OpenTree curation webapp", 
-"url": "https://github.com/OpenTreeOfLife/opentree", 
-"version": "0.0.0"
+{
+"@code": "SUPPORTING_FILE_INFO", 
+"@humanMessageType": "NONE", 
+"@id": "message2", 
+"@severity": "INFO", 
+"@wasGeneratedById": "supporting-files-metadata", 
+"data": {
+"@movedToPermanentArchive": false, 
+"files": {
+"file": []
+}
 }, 
-"dateCreated": "2013-12-30T20:04:59.311Z", 
-"id": "supporting-files-metadata"
+"refersTo": {
+"top": {
+"$": "meta"
+}
+}
+}
+]
 }
 ], 
 "otus": {
