@@ -139,21 +139,6 @@
 ]
 }, 
 {
-"$": "color", 
-"@property": "ot:tag", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
-"$": "blue", 
-"@property": "ot:tag", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
-"$": "cheese", 
-"@property": "ot:tag", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Open Tree NexSON validation", 
 "@property": "ot:annotation", 
 "@xsi:type": "nex:ResourceMeta", 
